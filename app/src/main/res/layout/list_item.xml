@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_of_place"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/quiz_image"/>
+
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:maxLines="2"
+                android:textSize="18sp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp"
+                android:paddingRight="6dp"
+                android:paddingTop="6dp"
+                android:textColor="@android:color/white"
+                android:background="#80424242"
+                android:text="Title of a Place"/>
+
+            <ImageView
+                android:id="@+id/favorites"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/ic_favorite_border_white_24dp"/>
+
+            <LinearLayout
+                android:id="@+id/text_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_text_view"
+                android:layout_toRightOf="@+id/image_of_place"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/address_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:drawableLeft="@drawable/ic_location_on_black_18dp"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="Address of the place, that could be long up to 2 lines"/>
+
+                <TextView
+                    android:id="@+id/open_hours_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:drawableLeft="@drawable/ic_schedule_black_18dp"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="6dp"
+                    android:textAllCaps="true"
+                    android:text="Opening Hours"/>
+
+                <TextView
+                    android:id="@+id/price_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:drawableLeft="@drawable/ic_monetization_on_black_18dp"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="6dp"
+                    android:textAllCaps="true"
+                    android:text="Price"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

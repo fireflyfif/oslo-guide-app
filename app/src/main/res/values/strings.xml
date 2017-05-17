@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Oslo Guide</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- The Viking Ship Museum -->
+    <string name="loc_vikingShip_title">The Viking Ship Museum</string>
+    <string name="loc_vikingShip_address">Huk Aveny 35, 0287 Oslo</string>
+    <string name="loc_vikingShip_hours">Mon-Sun: 9AM-6PM</string>
+    <string name="loc_vikingShip_price">Price: 100 NOK</string>
+
+    <!-- Oslo Opera House -->
+    <string name="loc_opera_title">Oslo Opera House</string>
+    <string name="loc_opera_address">Kirsten Flagstads plass 1, 0106 Oslo</string>
+    <string name="loc_opera_hours">Sat: 1PM</string>
+    <string name="loc_opera_price">Price: 50 NOK</string>
+
+    <!-- Norwegian Folk Museum -->
+    <string name="loc_folkMuseum_title">Norwegian Folk Museum</string>
+    <string name="loc_folkMuseum_address">Museumsveien 10, 0287 Oslo</string>
+    <string name="loc_folkMuseum_hours">Mon-Sun: 10AM-6PM</string>
+    <string name="loc_folkMuseum_price">130 NOK</string>
+
+    <!-- Munch Museum -->
+    <string name="loc_munch_title">Munch Museum</string>
+    <string name="loc_munch_address">Tøyengata 53, 0578 Oslo</string>
+    <string name="loc_munch_hours">Mon-Sun: 10AM-5PM</string>
+    <string name="loc_munch_price">100 NOK</string>
+
+    <!-- The Fram Museum -->
+    <string name="loc_fram_title">The Fram Museum</string>
+    <string name="loc_fram_address">Bygdøynesveien 36, 0286 Oslo</string>
+    <string name="loc_fram_hours">Mon-Sun: 10AM-6PM</string>
+    <string name="loc_fram_price">100 NOK</string>
+
+    <!-- Holmenkollen Ski Museum -->
+    <string name="loc_holmenkollen_title">Holmenkollen Ski Museum</string>
+    <string name="loc_holmenkollen_address">Kongeveien 5, 0787 Oslo</string>
+    <string name="loc_holmenkollen_hours">Mon-Sun: 10AM-5PM</string>
+    <string name="loc_holmenkollen_price">130 NOK</string>
+
+    <!-- Kon-Tiki Museum -->
+    <string name="loc_konTiki_title">Kon-Tiki Museum</string>
+    <string name="loc_konTiki_address">Bygdøynesveien 36, 0286 Oslo</string>
+    <string name="loc_konTiki_hours">Mon-Sun: 10AM-5PM</string>
+    <string name="loc_konTiki_price">100 NOK</string>
+
+    <!-- Astrup Fearnley Museum -->
+    <string name="loc_astrup_title">Astrup Fearnley Museum</string>
+    <string name="loc_astrup_address">Strandpromenaden 2, 0252 Oslo</string>
+    <string name="loc_astrup_hours">Mon-Sun: 12PM-5PM</string>
+    <string name="loc_astrup_price">120 NOK</string>
+
+
+</resources>
