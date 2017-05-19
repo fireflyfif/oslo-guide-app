@@ -97,5 +97,11 @@
         Non-Scandinavian residents can claim a tax refund by asking for a tax-free and submitting it at
         the airport refund desk when leaving the country.</string>
 
+    <string name="facts_emergency_title">Emergency numbers and rescue service</string>
+    <string name="facts_emergency_about" formatted="false">Emergency telephones \n\nFire, accidents and
+        serious pollution: Tel 110
+        \nPolice - immediate assistance: Tel 112
+        \nAmbulance and Medical assistance: Tel 113</string>
+
 
 </resources>

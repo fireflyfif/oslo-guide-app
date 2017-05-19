@@ -48,60 +48,17 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="@string/facts_shopping_title"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+            <include
+                android:id="@+id/sample1"
+                layout="@layout/text_expandable_item"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="10dp"
-                android:background="@color/lightGray" />
+            <include
+                android:id="@+id/sample2"
+                layout="@layout/text_expandable_item"/>
 
-            <com.ms.square.android.expandabletextview.ExpandableTextView
-                android:id="@+id/expandable_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:animDuration="200"
-                app:maxCollapsedLines="3">
-
-                <TextView
-                    android:id="@+id/expandable_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@color/lightGray"
-                    android:padding="10dp"
-                    android:text="@string/facts_shopping_about" />
-
-                <ImageButton
-                    android:id="@+id/expand_collapse"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right|bottom"
-                    android:layout_marginRight="10dp"
-                    android:background="@android:color/transparent" />
-
-            </com.ms.square.android.expandabletextview.ExpandableTextView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="@string/facts_osloPass_title"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="10dp"
-                android:background="@color/lightGray" />
+            <include
+                android:id="@+id/sample3"
+                layout="@layout/text_expandable_item"/>
 
         </LinearLayout>
 
