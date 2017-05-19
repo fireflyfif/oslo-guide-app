@@ -12,48 +12,90 @@
     <string name="loc_vikingShip_address">Huk Aveny 35, 0287 Oslo</string>
     <string name="loc_vikingShip_hours">Mon-Sun: 9AM-6PM</string>
     <string name="loc_vikingShip_price">Price: 100 NOK</string>
+    <string name="loc_vikingShip_summary">Museum on the Bygdøy peninsula with the world\'s
+        best-preserved Viking ships and finds from Viking tombs around the Oslo Fjord.</string>
 
     <!-- Oslo Opera House -->
     <string name="loc_opera_title">Oslo Opera House</string>
     <string name="loc_opera_address">Kirsten Flagstads plass 1, 0106 Oslo</string>
     <string name="loc_opera_hours">Sat: 1PM</string>
     <string name="loc_opera_price">Price: 50 NOK</string>
+    <string name="loc_opera_summary">The Oslo Opera House is the home of The Norwegian National Opera
+        and Ballet, and the national opera theatre in Norway.</string>
 
     <!-- Norwegian Folk Museum -->
     <string name="loc_folkMuseum_title">Norwegian Folk Museum</string>
     <string name="loc_folkMuseum_address">Museumsveien 10, 0287 Oslo</string>
     <string name="loc_folkMuseum_hours">Mon-Sun: 10AM-6PM</string>
     <string name="loc_folkMuseum_price">130 NOK</string>
+    <string name="loc_folkMuseum_summary">Norsk Folkemuseum, at Bygdøy, Oslo, Norway, is a museum of
+        cultural history with extensive collections of artifacts from all social groups and all regions
+        of the country.</string>
+    <string name="loc_folkMuseum_about">One of the world\'s oldest and largest open-air museums, with
+        155 traditional houses from all parts of Norway and a stave church from the year 1200.
+\nThe museum also has indoor exhibits with traditional handicraft items, folk costumes, Sami culture,
+        weapons, toys, pharmaceutical history and changing exhibitions.
+\nIn summer the open-air museum offers freshly-baked lefse, horse and carriage rides, feeding of the
+        animals, guided tours, handicraft demonstrations and much more.
+\nNorwegian name: Norsk Folkemuseum</string>
 
     <!-- Munch Museum -->
     <string name="loc_munch_title">Munch Museum</string>
     <string name="loc_munch_address">Tøyengata 53, 0578 Oslo</string>
     <string name="loc_munch_hours">Mon-Sun: 10AM-5PM</string>
     <string name="loc_munch_price">100 NOK</string>
+    <string name="loc_munch_summary">Munch Museum is an art museum in Oslo, Norway dedicated to the
+        life and works of the Norwegian artist Edvard Munch.</string>
 
     <!-- The Fram Museum -->
     <string name="loc_fram_title">The Fram Museum</string>
     <string name="loc_fram_address">Bygdøynesveien 36, 0286 Oslo</string>
     <string name="loc_fram_hours">Mon-Sun: 10AM-6PM</string>
     <string name="loc_fram_price">100 NOK</string>
+    <string name="loc_fram_summary">The Fram Museum is a museum telling the story of Norwegian polar
+        exploration. It is located on the peninsula of Bygdøy in Oslo, Norway.</string>
 
     <!-- Holmenkollen Ski Museum -->
     <string name="loc_holmenkollen_title">Holmenkollen Ski Museum</string>
     <string name="loc_holmenkollen_address">Kongeveien 5, 0787 Oslo</string>
     <string name="loc_holmenkollen_hours">Mon-Sun: 10AM-5PM</string>
     <string name="loc_holmenkollen_price">130 NOK</string>
+    <string name="loc_holmenkollen_summary">Holmenkollen Ski Museum is located at the base of the
+        Holmenkollen ski jump in Oslo, Norway. It was founded in 1923 and is the world\'s oldest ski
+        museum.</string>
 
     <!-- Kon-Tiki Museum -->
     <string name="loc_konTiki_title">Kon-Tiki Museum</string>
     <string name="loc_konTiki_address">Bygdøynesveien 36, 0286 Oslo</string>
     <string name="loc_konTiki_hours">Mon-Sun: 10AM-5PM</string>
     <string name="loc_konTiki_price">100 NOK</string>
+    <string name="loc_konTiki_summary">The Kon-Tiki Museum houses vessels and maps from the Kon-Tiki
+        expedition, as well as a library with about 8000 books.</string>
 
     <!-- Astrup Fearnley Museum -->
     <string name="loc_astrup_title">Astrup Fearnley Museum</string>
     <string name="loc_astrup_address">Strandpromenaden 2, 0252 Oslo</string>
     <string name="loc_astrup_hours">Mon-Sun: 12PM-5PM</string>
     <string name="loc_astrup_price">120 NOK</string>
+    <string name="loc_astrup_summary">The Astrup Fearnley Museum of Modern Art is a privately owned
+        contemporary art gallery in Oslo in Norway. The Astrup Fearnley Collection is a collection of
+        modern and contemporary art counted among the most significant of its kind in Northern Europe.</string>
+
+    <string name="facts_osloPass_title">Oslo Pass</string>
+    <string name="facts_osloPass_about">The Oslo Pass gives you free entry to more than 30 museums and
+        attractions, free travel on all public transport, free entry to outdoor swimming pools,
+        free walking tours, discounts on sightseeing, ski simulator, Tusenfryd Amusement Park,
+        concert tickets, climbing, ski rental, and special offers in restaurants, shops, entertainment
+        and leisure venues. \nLearn more here.</string>
+    
+    <string name="facts_shopping_title">Shopping</string>
+    <string name="facts_shopping_about" formatted="false">Oslo’s markets offer food produce, handicrafts and
+        bric-a-brac. Stores in Oslo’s main shopping districts, including upscale Bogstadveien and Karl Johans gate,
+        open 10 AM - 6 PM Monday - Saturday, while malls remain open until 8 PM.\n\nDrinks with an alcohol
+        content higher than 4.6% are only sold at government-owned Vinmonopolet outlets, which close at
+        6PM Monday-Friday and 3PM Saturdays.\n\nSales tax (VAT) is 25% and included in the price displayed.
+        Non-Scandinavian residents can claim a tax refund by asking for a tax-free and submitting it at
+        the airport refund desk when leaving the country.</string>
 
 
 </resources>

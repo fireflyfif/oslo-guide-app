@@ -49,6 +49,9 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         TextView priceTextView = (TextView) listItemView.findViewById(R.id.price_text_view);
         priceTextView.setText(currentLocation.getPrice());
 
+        TextView summaryTextView = (TextView) listItemView.findViewById(R.id.summary);
+        summaryTextView.setText(currentLocation.getSummary());
+
         ImageView photoOfThePlace = (ImageView) listItemView.findViewById(R.id.image_of_place);
         photoOfThePlace.setImageResource(currentLocation.getPhotoResourceId());
 

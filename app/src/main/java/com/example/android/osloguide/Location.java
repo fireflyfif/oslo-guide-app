@@ -28,6 +28,8 @@ public class Location {
      */
     private String mPriceEntrance;
 
+    private String mSummary;
+
     /**
      * Photo of the location
      */
@@ -40,14 +42,16 @@ public class Location {
      * @param title           is the name of the location
      * @param address         is the address or the short description onf the location
      * @param openingHours    is the working hours of the location
+     * @param summary         is the short description of the location
      * @param photoResourceId is the image that illustrates the location
      */
     public Location(String title, String address, String openingHours, String priceEntrance,
-                    int photoResourceId) {
+                    String summary, int photoResourceId) {
         mTitle = title;
         mAddress = address;
         mOpeningHours = openingHours;
         mPriceEntrance = priceEntrance;
+        mSummary = summary;
         mPhotoResourceId = photoResourceId;
     }
 
@@ -77,6 +81,13 @@ public class Location {
      */
     public String getPrice() {
         return mPriceEntrance;
+    }
+
+    /**
+     * Get the summary of the location
+     */
+    public String getSummary() {
+        return mSummary;
     }
 
     /**

@@ -16,7 +16,46 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Facts"></activity>
+        <activity
+            android:name=".Facts"
+            android:label="Facts"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.osloguide.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".LocationDetailActivity"
+            android:label="Location Detail"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.osloguide.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".MapActivity"
+            android:label="City Map"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.osloguide.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Favorites"
+            android:label="Favorite Spots"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.osloguide.MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>
