@@ -19,4 +19,51 @@
         <item name="rippleColor">@android:color/white</item>
     </style>
 
+    <!-- Photo of a Location -->
+    <style name="photoLocation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/photoLocation_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Title TextView -->
+    <style name="titleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_height</item>
+        <item name="android:background">@color/darkGray_transparent</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingLeft">@dimen/padding_16dp</item>
+        <item name="android:paddingRight">@dimen/padding_6dp</item>
+        <item name="android:paddingTop">@dimen/padding_6dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/title_textSize</item>
+    </style>
+
+    <!-- Favorite Icon -->
+    <style name="favoriteIcon">
+        <item name="android:layout_width">@dimen/favoriteIcon_size</item>
+        <item name="android:layout_height">@dimen/favoriteIcon_size</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginRight">@dimen/margin_6dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_6dp</item>
+    </style>
+
+    <!-- Contacts TextView -->
+    <style name="contactsTextStyle" parent="AppTheme">
+        <item name="android:layout_width">@dimen/width_0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:drawablePadding">@dimen/drawablePadding</item>
+        <item name="android:paddingRight">@dimen/padding_6dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/contact_textSize</item>
+    </style>
+
+    <style name="contactsTextStyle.price">
+        <item name="android:layout_weight">1</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
 </resources>

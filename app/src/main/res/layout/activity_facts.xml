@@ -28,9 +28,8 @@
                 android:layout_height="wrap_content"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/astrup"
+                android:src="@drawable/city_hall_3"
                 app:layout_collapseMode="parallax" />
-
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
@@ -42,7 +41,6 @@
         android:clipToPadding="false"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -50,15 +48,15 @@
 
             <include
                 android:id="@+id/sample1"
-                layout="@layout/text_expandable_item"/>
+                layout="@layout/text_expandable_item" />
 
             <include
                 android:id="@+id/sample2"
-                layout="@layout/text_expandable_item"/>
+                layout="@layout/text_expandable_item" />
 
             <include
                 android:id="@+id/sample3"
-                layout="@layout/text_expandable_item"/>
+                layout="@layout/text_expandable_item" />
 
         </LinearLayout>
 

@@ -17,9 +17,11 @@ import java.util.ArrayList;
 
 public class LocationAdapter extends ArrayAdapter<Location> {
 
+    private int mColorId;
+
+
     public LocationAdapter(Activity context, ArrayList<Location> locations) {
         super(context, 0, locations);
-
     }
 
     @NonNull
@@ -53,7 +55,15 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         summaryTextView.setText(currentLocation.getSummary());
 
         ImageView photoOfThePlace = (ImageView) listItemView.findViewById(R.id.image_of_place);
-        photoOfThePlace.setImageResource(currentLocation.getPhotoResourceId());
+
+        if (currentLocation.hasPhoto()) {
+            photoOfThePlace.setImageResource(currentLocation.getPhotoResourceId());
+
+            photoOfThePlace.setVisibility(View.VISIBLE);
+        } else {
+            photoOfThePlace.setVisibility(View.INVISIBLE);
+        }
+
 
 
 

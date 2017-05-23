@@ -37,6 +37,5 @@ public class Facts extends AppCompatActivity {
         expandableTextView2.setText(getString(R.string.facts_osloPass_about));
         expandableTextView3.setText(getString(R.string.facts_emergency_about));
 
-
     }
 }

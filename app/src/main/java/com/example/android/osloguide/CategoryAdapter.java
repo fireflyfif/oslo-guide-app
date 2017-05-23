@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private String categoryTitles[] = new String[] { "Top", "Culture", "Parks" };
+    private String categoryTitles[] = new String[] { "Top", "Culture", "Parks", "Views" };
 
     public CategoryAdapter (FragmentManager fm) {
         super(fm);
@@ -22,14 +22,16 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new TopFragment();
         } else if (position == 1) {
             return new CultureFragment();
-        } else {
+        } else if (position == 2) {
             return new ParksFragment();
+        } else {
+            return new ViewsFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override

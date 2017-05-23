@@ -4,14 +4,19 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_of_location">Title of a Place</string>
+    <string name="address_text">Address of the place, up to 2 lines</string>
+    <string name="hours_text">Opening Hours</string>
+    <string name="price_text">Price</string>
+
+    <string name="image_location">Photo of a location</string>
+    <string name="favorite_icon">Heart shape icon for favorites</string>
 
     <!-- The Viking Ship Museum -->
     <string name="loc_vikingShip_title">The Viking Ship Museum</string>
     <string name="loc_vikingShip_address">Huk Aveny 35, 0287 Oslo</string>
     <string name="loc_vikingShip_hours">Mon-Sun: 9AM-6PM</string>
-    <string name="loc_vikingShip_price">Price: 100 NOK</string>
+    <string name="loc_vikingShip_price">100 NOK</string>
     <string name="loc_vikingShip_summary">Museum on the Bygdøy peninsula with the world\'s
         best-preserved Viking ships and finds from Viking tombs around the Oslo Fjord.</string>
 
@@ -19,7 +24,7 @@
     <string name="loc_opera_title">Oslo Opera House</string>
     <string name="loc_opera_address">Kirsten Flagstads plass 1, 0106 Oslo</string>
     <string name="loc_opera_hours">Sat: 1PM</string>
-    <string name="loc_opera_price">Price: 50 NOK</string>
+    <string name="loc_opera_price">50 NOK</string>
     <string name="loc_opera_summary">The Oslo Opera House is the home of The Norwegian National Opera
         and Ballet, and the national opera theatre in Norway.</string>
 
@@ -33,11 +38,11 @@
         of the country.</string>
     <string name="loc_folkMuseum_about">One of the world\'s oldest and largest open-air museums, with
         155 traditional houses from all parts of Norway and a stave church from the year 1200.
-\nThe museum also has indoor exhibits with traditional handicraft items, folk costumes, Sami culture,
-        weapons, toys, pharmaceutical history and changing exhibitions.
-\nIn summer the open-air museum offers freshly-baked lefse, horse and carriage rides, feeding of the
-        animals, guided tours, handicraft demonstrations and much more.
-\nNorwegian name: Norsk Folkemuseum</string>
+        \nThe museum also has indoor exhibits with traditional handicraft items, folk costumes, Sami
+        culture, weapons, toys, pharmaceutical history and changing exhibitions.
+        \nIn summer the open-air museum offers freshly-baked lefse, horse and carriage rides, feeding
+        of the animals, guided tours, handicraft demonstrations and much more.
+        \nNorwegian name: Norsk Folkemuseum</string>
 
     <!-- Munch Museum -->
     <string name="loc_munch_title">Munch Museum</string>
@@ -64,6 +69,15 @@
         Holmenkollen ski jump in Oslo, Norway. It was founded in 1923 and is the world\'s oldest ski
         museum.</string>
 
+    <!-- Holmenkollen -->
+    <string name="loc_holmenArena_title">Holmenkollen</string>
+    <string name="loc_holmenArena_address">Kongeveien 5, 0787 Oslo</string>
+    <string name="loc_holmenArena_hours">OPEN TO PUBLIC</string>
+    <string name="loc_holmenArena_price">Free</string>
+    <string name="loc_holmenArena_summary">Holmenkollen National Ski Arena is one of Norway\'s most
+        visited tourist attractions, and includes the Holmenkollen Ski Museum &amp; Jump Tower, shops,
+        a café and a ski simulator.</string>
+
     <!-- Kon-Tiki Museum -->
     <string name="loc_konTiki_title">Kon-Tiki Museum</string>
     <string name="loc_konTiki_address">Bygdøynesveien 36, 0286 Oslo</string>
@@ -81,13 +95,233 @@
         contemporary art gallery in Oslo in Norway. The Astrup Fearnley Collection is a collection of
         modern and contemporary art counted among the most significant of its kind in Northern Europe.</string>
 
+    <!-- National Gallery -->
+    <string name="loc_natGallery_title">National Gallery</string>
+    <string name="loc_natGallery_address">Universitetsgata 13, 0164 Oslo</string>
+    <string name="loc_natGallery_hours">Mon-Sun: 10AM-6PM</string>
+    <string name="loc_natGallery_price">100 NOK</string>
+    <string name="loc_natGallery_summary">Norway\'s largest public collection of paintings, drawings
+        and sculptures is found in the National Gallery. The gallery\'s central attractions include
+        Edvard Munch\'s The Scream and Madonna, and paintings by Cézanne and Manet.</string>
+
+    <!-- The Vigeland Museum -->
+    <string name="loc_vigelandMuseum_title">The Vigeland Museum</string>
+    <string name="loc_vigelandMuseum_address">Nobels gate 32, 0268 Oslo</string>
+    <string name="loc_vigelandMuseum_hours">Mon-Sun: 10AM-5PM</string>
+    <string name="loc_vigelandMuseum_price">60 NOK</string>
+    <string name="loc_vigelandMuseum_summary">Sculpture museum located in the studio and home of
+        sculptor Gustav Vigeland (1869-1943). The building is regarded as one of the finest examples
+        of neo-classical architecture in Norway.</string>
+
+    <!-- Nobel Peace Center -->
+    <string name="loc_nobel_title">Nobel Peace Center</string>
+    <string name="loc_nobel_address">Brynjulf Bulls plass 1, 0250 Oslo</string>
+    <string name="loc_nobel_hours">Mon-Sun: 10AM-6PM</string>
+    <string name="loc_nobel_price">100 NOK</string>
+    <string name="loc_nobel_summary">Nobel Peace Prize museum with an exciting combination of changing
+        and permanent exhibitions that promote popular interest in issues relating to war, peace and
+        conflict resolution.</string>
+
+    <!-- Historical Museum -->
+    <string name="loc_historyMuseum_title">Historical Museum</string>
+    <string name="loc_historyMuseum_address">Frederiks gate 2, 0164 Oslo</string>
+    <string name="loc_historyMuseum_hours">Tue-Sun: 10AM-5PM</string>
+    <string name="loc_historyMuseum_price">100 NOK</string>
+    <string name="loc_historyMuseum_summary">The ground floor is home to large collections from the
+        Middle Ages, gold and silver treasures, a permanent exhibition about the Viking Age and the
+        interdisciplinary exhibition Collapse.</string>
+
+    <!-- Ibsen Museum -->
+    <string name="loc_ibsen_title">Ibsen Museum</string>
+    <string name="loc_ibsen_address">Henrik Ibsens gate 26, 0253 Oslo</string>
+    <string name="loc_ibsen_hours">Mon-Sun: 11AM-6PM</string>
+    <string name="loc_ibsen_price">60 NOK</string>
+    <string name="loc_ibsen_summary">The Ibsen Museum includes a comprehensive exhibit featuring the
+        playwright Ibsen\'s life and work, as well as Ibsen\'s private home, where he spent the last
+        11 years of his life.</string>
+
+    <!-- Henie Onstad Kunstsenter / Art Center -->
+    <string name="loc_henieKunst_title">Henie Onstad Kunstsenter</string>
+    <string name="loc_henieKunst_address">Sonja Henies vei 31, 1311 Høvikodden</string>
+    <string name="loc_henieKunst_hours">Tue-Sun: 11AM-5PM</string>
+    <string name="loc_henieKunst_price">100 NOK</string>
+    <string name="loc_henieKunst_summary">Museum of modern and contemporary art at Høvikodden, 15 minutes
+        west of Oslo. Henie Onstad opened in 1968 and was made possible by a generous donation from
+        art collectors Sonja Henie and Niels Onstad.</string>
+
+    <!-- Norway's Resistance Museum -->
+    <string name="loc_akershusMuseum_title">Norway\'s Resistance Museum</string>
+    <string name="loc_akershusMuseum_address">Akershus festning, 0015 Oslo</string>
+    <string name="loc_akershusMuseum_hours">Mon-Sun: 10AM-4PM</string>
+    <string name="loc_akershusMuseum_price">60 NOK</string>
+    <string name="loc_akershusMuseum_summary">Museum at Akershus Fortress that documents Norway\'s domestic
+        World War II history from the years 1940-1945.</string>
+
+    <!-- Norwegian Museum of Science & Technology -->
+    <string name="loc_scienceTech_title">Norwegian Museum of Science &amp; Technology</string>
+    <string name="loc_scienceTech_address">Kjelsåsveien 143, 0491 Oslo</string>
+    <string name="loc_scienceTech_hours">Tue-Sun: 11AM-6PM</string>
+    <string name="loc_scienceTech_price">150 NOK</string>
+    <string name="loc_scienceTech_summary">National museum for technology, industry, science and
+        medicine - a paradise for curious people of all ages. The museum has more than 80 interactive
+        installations and an exciting activity programme during weekends and holidays.</string>
+
+    <!-- Museum of Contemporary Art -->
+    <string name="loc_contemporaryArt_title">Museum of Contemporary Art</string>
+    <string name="loc_contemporaryArt_address">Bankplassen 4, 0151 Oslo</string>
+    <string name="loc_contemporaryArt_hours">Tue-Sun: 11AM-5PM</string>
+    <string name="loc_contemporaryArt_price">50 NOK</string>
+    <string name="loc_contemporaryArt_summary">Contemporary art museum with temporary exhibitions and
+        permanent displays from its own collection of 5,000 works by Norwegian and international artists.</string>
+
+    <!-- Frogner Park -->
+    <string name="loc_frogner_title">Frogner Park</string>
+    <string name="loc_frogner_address">Kirkeveien/Middelthuns gate, 0268 Oslo</string>
+    <string name="loc_frogner_hours">OPEN TO PUBLIC</string>
+    <string name="loc_frogner_price">Free</string>
+    <string name="loc_frogner_summary">The largest park in central parts of Oslo and a popular
+        recreational area for people from all over the city. Inside the park you find Vigeland Sculpture
+        Park, one of Oslo\'s most popular attractions.</string>
+
+    <!-- Akershus Fortress -->
+    <string name="loc_akershus_title">Akershus Fortress</string>
+    <string name="loc_akershus_address">Forsvarsbygg, 0103 Oslo</string>
+    <string name="loc_akershus_hours">Mon-Sun: 6AM-9PM</string>
+    <string name="loc_akershus_price">Free</string>
+    <string name="loc_akershus_summary">Akershus Fortress is a great place to discover Oslo\'s history
+        and enjoy a summer day. The medieval castle, which was completed in the 1300s, had a strategical
+        location at the very end of the headland, and withstood a number of sieges throughout the ages.</string>
+
+    <!-- Oslo City Hall -->
+    <string name="loc_cityHall_title">Oslo City Hall</string>
+    <string name="loc_cityHall_address">Fridtjof Nansens plass, 0160 Oslo</string>
+    <string name="loc_cityHall_hours">Mon-Sun: 9AM-4PM</string>
+    <string name="loc_cityHall_price">Free</string>
+    <string name="loc_cityHall_summary">Oslo Rådhus. Inaugurated in 1950, Oslo City Hall is the city\'s administrative
+        body and the seat of the City Council.</string>
+
+    <!-- The Royal Palace -->
+    <string name="loc_royalPalace_title">The Royal Palace</string>
+    <string name="loc_royalPalace_address">Slottsplassen 1, 0010 Oslo</string>
+    <string name="loc_royalPalace_hours">Mon-Sun: 11AM-5PM</string>
+    <string name="loc_royalPalace_price">135 NOK</string>
+    <string name="loc_royalPalace_summary">The royal residence at the top of Karl Johans gate, home to
+        HM King Harald V and HM Queen Sonja. The building is in neo-classical style with a facade of
+        stuccoed brick, and was completed in 1849.</string>
+
+    <!-- Botanical Garden -->
+    <string name="loc_botanicalGarden_title">Botanical Garden</string>
+    <string name="loc_botanicalGarden_address">Sars\' gate/Monrads gate, Tøyen, 0562 Oslo</string>
+    <string name="loc_botanicalGarden_hours">Mon-Sun: 7AM-9PM</string>
+    <string name="loc_botanicalGarden_price">80 NOK</string>
+    <string name="loc_botanicalGarden_summary">Large garden with ample botanical variety and
+        diversity. Most of the area is designed as an Arboretum, with approximately 1800 different
+        plants. The garden holds a large and varied collection of trees and shrubs planted in a
+        systematic fashion after plant family.</string>
+
+    <!-- Oslo Reptile Park -->
+    <string name="loc_reptilePark_title">Oslo Reptile Park</string>
+    <string name="loc_reptilePark_address">St. Olavs gate 2, 0165 Oslo</string>
+    <string name="loc_reptilePark_hours">Mon-Sun: 10AM-6PM</string>
+    <string name="loc_reptilePark_price">150 NOK</string>
+    <string name="loc_reptilePark_summary">Indoor zoo in the centre of Oslo with more than 100
+        animals, including boa constrictors, grass snakes, geckos, chameleons, lizards, a poison dart
+        frog, tarantellas, a dwarf crocodile, monkeys, turtles and fish – and a black widow, the world\'s
+        most poisonous spider.</string>
+
+    <!-- TusenFryd Amusement Park -->
+    <string name="loc_tusenFryd_title">TusenFryd Amusement Park</string>
+    <string name="loc_tusenFryd_address">Høyungsletta 19, 1407 Vinterbro</string>
+    <string name="loc_tusenFryd_hours">Mon-Sun: 10AM-6PM</string>
+    <string name="loc_tusenFryd_price">349 NOK</string>
+    <string name="loc_tusenFryd_summary">Norway\'s largest amusement park, with more than 30 fun
+        attractions and lots of great games, shops and places to eat.</string>
+
+    <!-- Ekebergparken Sculpture Park -->
+    <string name="loc_ekeberg_title">Ekebergparken</string>
+    <string name="loc_ekeberg_address">Ekebergparken, 1181 Oslo</string>
+    <string name="loc_ekeberg_hours">OPEN TO PUBLIC</string>
+    <string name="loc_ekeberg_price">Free</string>
+    <string name="loc_ekeberg_summary">Sculpture and national heritage park with a strong international
+        art collection surrounded by beautiful scenery with many spectacular lookout points.</string>
+
+    <!-- Tjuvholmen Sculpture Park -->
+    <string name="loc_tjuvholmen_title">Tjuvholmen Sculpture Park</string>
+    <string name="loc_tjuvholmen_address">Tjuvholmen, 0252 Oslo</string>
+    <string name="loc_tjuvholmen_hours">OPEN TO PUBLIC</string>
+    <string name="loc_tjuvholmen_price">Free</string>
+    <string name="loc_tjuvholmen_summary">Sculpture park located by the Astrup Fearnley Museum at Tjuvholmen.
+        Both were designed by world-renowned architect Renzo Piano.</string>
+
+    <!-- Oslo Winter Park -->
+    <string name="loc_winterPark_title">Oslo Winter Park</string>
+    <string name="loc_winterPark_address">Tryvannsveien 64, 0791 Oslo</string>
+    <string name="loc_winterPark_hours">Oct-Apr: 10AM-10PM</string>
+    <string name="loc_winterPark_price">430 NOK</string>
+    <string name="loc_winterPark_summary">The largest ski resort in the Oslo area, with 18 slopes and
+        11 lifts - just 30 minutes from the city centre.</string>
+
+    <!-- Oslo Summer Park -->
+    <string name="loc_summerPark_title">Oslo Summer Park</string>
+    <string name="loc_summerPark_address">Tryvannsveien 64, 0791 Oslo</string>
+    <string name="loc_summerPark_hours">May-Oct: 10AM-8PM</string>
+    <string name="loc_summerPark_price">375 NOK</string>
+    <string name="loc_summerPark_summary">One of Scandinavia\'s largest climbing parks - just 30 minutes
+        from the city centre. Oslo Summer Park is divided into nine trails with varying degrees of difficulty.
+        There are over 150 elements in the park, which also includes 900 metres of zip-lines.</string>
+
+    <!-- Hovedøya island -->
+    <string name="loc_hovedoya_title">Hovedøya island</string>
+    <string name="loc_hovedoya_address">Hovedøya island</string>
+    <string name="loc_hovedoya_hours">OPEN TO PUBLIC</string>
+    <string name="loc_hovedoya_price">Free</string>
+    <string name="loc_hovedoya_summary">The island closest to the city centre, with beautiful forests,
+        beaches and cultural heritage. North on the island you can visit the ruins of a Cistercian monastery
+        from 1147.</string>
+
+    <!-- Grefsenkollen Hill or Peak -->
+    <string name="loc_grefsenkollen_title">Grefsenkollen</string>
+    <string name="loc_grefsenkollen_address">Grefsenkollveien 100, 0490 Oslo</string>
+    <string name="loc_grefsenkollen_hours">OPEN TO PUBLIC</string>
+    <string name="loc_grefsenkollen_price">Free</string>
+    <string name="loc_grefsenkollen_summary">Grefsenkollen is a peak in the northeast of Oslo offering
+        spectacular views of the city. Once at the top, take a walk down to Trollvann lake to fully
+        escape into nature.</string>
+
+    <!-- Vettakollen Hill -->
+    <string name="loc_vettakollen_title">Vettakollen Hill</string>
+    <string name="loc_vettakollen_address">Gulleråsveien 71, 0779 Oslo</string>
+    <string name="loc_vettakollen_hours">OPEN TO PUBLIC</string>
+    <string name="loc_vettakollen_price">Free</string>
+    <string name="loc_vettakollen_summary">Vettakollen is a peak between Holmenkollen and Sognsvann
+        that offers some of the best views you can get overlooking Oslo, the fjord and Holmenkollen.</string>
+
+    <!-- Stortinget - The Parliament -->
+    <string name="loc_storting_title">Stortinget - The Parliament</string>
+    <string name="loc_storting_address">Karl Johans gate 22, 0026 Oslo</string>
+    <string name="loc_storting_hours">Mon-Fri: 10AM-1PM</string>
+    <string name="loc_storting_price">Free</string>
+    <string name="loc_storting_summary">The Parliament building, seat of the Norwegian National
+        Assembly since 1866.</string>
+
+    <!-- The Sneak Peak -->
+    <string name="loc_sneakPeak_title">The Sneak Peak</string>
+    <string name="loc_sneakPeak_address">Albert Nordengens plass, 0252 Oslo</string>
+    <string name="loc_sneakPeak_hours">Sat-Sun: 12AM-6M</string>
+    <string name="loc_sneakPeak_price">20 NOK</string>
+    <string name="loc_sneakPeak_summary">Lookout tower at Tjuvholmen with a glass elevator. The tower
+        is 54 metres high, and is open to the public in the summer season. From the vantage point you
+        can see the city, the bay, boats and hills from a whole new angle.</string>
+
+    <!-- Facts - Oslo Pass -->
     <string name="facts_osloPass_title">Oslo Pass</string>
     <string name="facts_osloPass_about">The Oslo Pass gives you free entry to more than 30 museums and
         attractions, free travel on all public transport, free entry to outdoor swimming pools,
         free walking tours, discounts on sightseeing, ski simulator, Tusenfryd Amusement Park,
         concert tickets, climbing, ski rental, and special offers in restaurants, shops, entertainment
         and leisure venues. \nLearn more here.</string>
-    
+
+    <!-- Facts - Shopping -->
     <string name="facts_shopping_title">Shopping</string>
     <string name="facts_shopping_about" formatted="false">Oslo’s markets offer food produce, handicrafts and
         bric-a-brac. Stores in Oslo’s main shopping districts, including upscale Bogstadveien and Karl Johans gate,
@@ -97,6 +331,7 @@
         Non-Scandinavian residents can claim a tax refund by asking for a tax-free and submitting it at
         the airport refund desk when leaving the country.</string>
 
+    <!-- Facts - Emergency numbers -->
     <string name="facts_emergency_title">Emergency numbers and rescue service</string>
     <string name="facts_emergency_about" formatted="false">Emergency telephones \n\nFire, accidents and
         serious pollution: Tel 110

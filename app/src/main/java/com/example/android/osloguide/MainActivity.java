@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         mDrawerList.setAdapter(mAdapter);
 
         View headerView = View.inflate(this, R.layout.header_nav_drawer, null);
-        ((ImageView) headerView.findViewById(R.id.image_nav_drawer)).setImageResource(R.drawable.oslo_01);
+        ((ImageView) headerView.findViewById(R.id.image_nav_drawer)).setImageResource(R.drawable.city_hall_3);
         ((TextView) headerView.findViewById(R.id.title_nav_drawer)).setText("Oslo, Norway");
         mDrawerList.addHeaderView(headerView);
 
