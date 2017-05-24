@@ -8,9 +8,14 @@
     <string name="address_text">Address of the place, up to 2 lines</string>
     <string name="hours_text">Opening Hours</string>
     <string name="price_text">Price</string>
+    <string name="contacts_text">Location &amp; Contacts</string>
+    <string name="navigation_text">Navigation</string>
+    <string name="web_text">Web</string>
+    <string name="share_text">Share</string>
 
     <string name="image_location">Photo of a location</string>
     <string name="favorite_icon">Heart shape icon for favorites</string>
+    <string name="map_of_city">Map of the city</string>
 
     <!-- The Viking Ship Museum -->
     <string name="loc_vikingShip_title">The Viking Ship Museum</string>
@@ -38,11 +43,12 @@
         of the country.</string>
     <string name="loc_folkMuseum_about">One of the world\'s oldest and largest open-air museums, with
         155 traditional houses from all parts of Norway and a stave church from the year 1200.
-        \nThe museum also has indoor exhibits with traditional handicraft items, folk costumes, Sami
+        \n\nThe museum also has indoor exhibits with traditional handicraft items, folk costumes, Sami
         culture, weapons, toys, pharmaceutical history and changing exhibitions.
-        \nIn summer the open-air museum offers freshly-baked lefse, horse and carriage rides, feeding
+        \n\nIn summer the open-air museum offers freshly-baked lefse, horse and carriage rides, feeding
         of the animals, guided tours, handicraft demonstrations and much more.
-        \nNorwegian name: Norsk Folkemuseum</string>
+        \n\nNorwegian name: Norsk Folkemuseum</string>
+    <string name="loc_folkMuseum_telephone">+47 22 12 37 00</string>
 
     <!-- Munch Museum -->
     <string name="loc_munch_title">Munch Museum</string>

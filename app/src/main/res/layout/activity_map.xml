@@ -5,12 +5,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.android.osloguide.MapActivity">
-    
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:src="@drawable/map_oslo"/>
+        android:contentDescription="@string/map_of_city"
+        android:src="@drawable/map_oslo" />
 
 </LinearLayout>
