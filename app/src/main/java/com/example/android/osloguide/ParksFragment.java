@@ -37,15 +37,15 @@ public class ParksFragment extends Fragment {
         location.add(new Location(getString(R.string.loc_botanicalGarden_title),
                 getString(R.string.loc_botanicalGarden_address), getString(R.string.loc_botanicalGarden_hours),
                 getString(R.string.loc_botanicalGarden_price), getString(R.string.loc_botanicalGarden_summary),
-                R.drawable.botanical_garden_3));
+                R.drawable.botanical_garden_2));
         location.add(new Location(getString(R.string.loc_tusenFryd_title),
                 getString(R.string.loc_tusenFryd_address), getString(R.string.loc_tusenFryd_hours),
                 getString(R.string.loc_tusenFryd_price), getString(R.string.loc_tusenFryd_summary),
-                R.drawable.oslo_01));
+                R.drawable.default_photo));
         location.add(new Location(getString(R.string.loc_ekeberg_title),
                 getString(R.string.loc_ekeberg_address), getString(R.string.loc_ekeberg_hours),
                 getString(R.string.loc_ekeberg_price), getString(R.string.loc_ekeberg_summary),
-                R.drawable.oslo_01));
+                R.drawable.default_photo));
         location.add(new Location(getString(R.string.loc_tjuvholmen_title),
                 getString(R.string.loc_tjuvholmen_address), getString(R.string.loc_tjuvholmen_hours),
                 getString(R.string.loc_tjuvholmen_price), getString(R.string.loc_tjuvholmen_summary),
@@ -57,7 +57,7 @@ public class ParksFragment extends Fragment {
         location.add(new Location(getString(R.string.loc_summerPark_title),
                 getString(R.string.loc_summerPark_address), getString(R.string.loc_summerPark_hours),
                 getString(R.string.loc_summerPark_price), getString(R.string.loc_summerPark_summary),
-                R.drawable.oslo_01));
+                R.drawable.default_photo));
         location.add(new Location(getString(R.string.loc_hovedoya_title),
                 getString(R.string.loc_hovedoya_address), getString(R.string.loc_hovedoya_hours),
                 getString(R.string.loc_hovedoya_price), getString(R.string.loc_hovedoya_summary),
@@ -65,7 +65,7 @@ public class ParksFragment extends Fragment {
         location.add(new Location(getString(R.string.loc_reptilePark_title),
                 getString(R.string.loc_reptilePark_address), getString(R.string.loc_reptilePark_hours),
                 getString(R.string.loc_reptilePark_price), getString(R.string.loc_reptilePark_summary),
-                R.drawable.oslo_01));
+                R.drawable.default_photo));
 
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location);

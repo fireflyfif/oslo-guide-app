@@ -29,7 +29,7 @@
                 android:contentDescription="@string/image_location"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/folk_museum_4"
+                android:src="@drawable/folk_museum"
                 app:layout_collapseMode="parallax" />
 
         </android.support.design.widget.CollapsingToolbarLayout>

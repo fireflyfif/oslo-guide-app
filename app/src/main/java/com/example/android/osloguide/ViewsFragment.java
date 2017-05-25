@@ -42,7 +42,7 @@ public class ViewsFragment extends Fragment {
         location.add(new Location(getString(R.string.loc_opera_title),
                 getString(R.string.loc_opera_address), getString(R.string.loc_opera_hours),
                 getString(R.string.loc_opera_price), getString(R.string.loc_opera_summary),
-                R.drawable.opera_2));
+                R.drawable.opera));
         location.add(new Location(getString(R.string.loc_akershus_title),
                 getString(R.string.loc_akershus_address), getString(R.string.loc_akershus_hours),
                 getString(R.string.loc_akershus_price), getString(R.string.loc_akershus_summary),
@@ -50,11 +50,11 @@ public class ViewsFragment extends Fragment {
         location.add(new Location(getString(R.string.loc_sneakPeak_title),
                 getString(R.string.loc_sneakPeak_address), getString(R.string.loc_sneakPeak_hours),
                 getString(R.string.loc_sneakPeak_price), getString(R.string.loc_sneakPeak_summary),
-                R.drawable.sneak_peak_2));
+                R.drawable.sneak_peak));
         location.add(new Location(getString(R.string.loc_vettakollen_title),
                 getString(R.string.loc_vettakollen_address), getString(R.string.loc_vettakollen_hours),
                 getString(R.string.loc_vettakollen_price), getString(R.string.loc_vettakollen_summary),
-                R.drawable.holmenkollen_ski_jump_2));
+                R.drawable.default_photo));
 
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location);

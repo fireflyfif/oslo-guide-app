@@ -21,7 +21,7 @@
                 android:id="@+id/image_of_place"
                 style="@style/photoLocation"
                 android:contentDescription="@string/image_location"
-                android:src="@drawable/oslo_01" />
+                android:src="@drawable/oslo" />
 
             <TextView
                 android:id="@+id/title_text_view"
