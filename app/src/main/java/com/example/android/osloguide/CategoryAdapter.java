@@ -5,17 +5,27 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 /**
- * Created by iva on 5/15/17.
+ * {@link CategoryAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
+ * each list item based on a data source which is a list of {@link Location} objects.
  */
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private String categoryTitles[] = new String[] { "Top", "Culture", "Parks", "Views" };
+    private String categoryTitles[] = new String[]{"Top", "Culture", "Parks", "Views"};
 
-    public CategoryAdapter (FragmentManager fm) {
+    /**
+     * Create a new {@link CategoryAdapter} object.
+     *
+     * @param fm is the fragment manager that will keep each fragment's state in the adapter
+     *           across swipes.
+     */
+    public CategoryAdapter(FragmentManager fm) {
         super(fm);
     }
 
+    /**
+     * Return the {@link Fragment} that should be displayed for the given page number.
+     */
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -29,6 +39,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         }
     }
 
+    /**
+     * Return the total number of pages.
+     */
     @Override
     public int getCount() {
         return 4;

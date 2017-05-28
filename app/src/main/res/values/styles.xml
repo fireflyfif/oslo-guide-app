@@ -8,14 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Splash Theme -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:drawable">@layout/activity_splash</item>
+    </style>
+
     <style name="FabStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_margin">@dimen/margin_16dp</item>
         <item name="android:src">@drawable/ic_favorite_border_white_24dp</item>
         <item name="borderWidth">0dp</item>
-        <item name="elevation">6dp</item>
-        <item name="pressedTranslationZ">12dp</item>
+        <item name="elevation">@dimen/elevation_fabStyle</item>
+        <item name="pressedTranslationZ">@dimen/pressedTranslationZ_fabStyle</item>
         <item name="rippleColor">@android:color/white</item>
     </style>
 

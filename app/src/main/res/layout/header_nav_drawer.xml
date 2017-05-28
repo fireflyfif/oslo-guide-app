@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/image_nav_drawer"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:scaleType="centerCrop"
+        android:layout_height="@dimen/photoLocation_height"
         android:layout_alignParentTop="true"
-        android:src="@drawable/city_hall"/>
+        android:contentDescription="@string/image_location"
+        android:scaleType="centerCrop"
+        android:src="@drawable/city_hall" />
 
     <TextView
         android:id="@+id/title_nav_drawer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Oslo"
         android:layout_alignBottom="@id/image_nav_drawer"
-        android:textColor="@android:color/white"
-        android:textSize="18sp"
-        android:padding="6dp"
+        android:background="@color/darkGray_transparent"
         android:gravity="center_horizontal"
-        android:background="#80424242"/>
+        android:padding="@dimen/padding_6dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/title_textSize"
+        tool:text="Oslo" />
 
 </RelativeLayout>

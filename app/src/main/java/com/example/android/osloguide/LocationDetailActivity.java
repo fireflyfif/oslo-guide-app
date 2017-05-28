@@ -5,7 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * Created by iva on 5/17/17.
+ * This will be the detail screen for each selected location.
  */
 
 public class LocationDetailActivity extends AppCompatActivity {

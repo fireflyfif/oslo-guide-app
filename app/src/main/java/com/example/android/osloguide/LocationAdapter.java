@@ -17,10 +17,12 @@ import java.util.ArrayList;
 
 public class LocationAdapter extends ArrayAdapter<Location> {
 
-    private int mColorId;
-
-
+    // Check if the existing view is being reused, otherwise inflate the view
     public LocationAdapter(Activity context, ArrayList<Location> locations) {
+        // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
+        // the second argument is used when the ArrayAdapter is populating a single TextView.
+        // Because this is a custom adapter for several TextViews and an ImageView, the adapter
+        // is not going to use this second argument, so it can be any value. Here, we used 0.
         super(context, 0, locations);
     }
 
@@ -42,33 +44,44 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         // set this text on the name TextView
         titleTextView.setText(currentLocation.getTitle());
 
+        // Find the TextView in the list_item.xml layout with the ID version_name
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.address_text_view);
+        // Get the version name from the current Place object and
+        // set this text on the name TextView
         addressTextView.setText(currentLocation.getAddress());
 
+        // Find the TextView in the list_item.xml layout with the ID version_name
         TextView openingHoursTextView = (TextView) listItemView.findViewById(R.id.open_hours_text_view);
+        // Get the version name from the current Place object and
+        // set this text on the name TextView
         openingHoursTextView.setText(currentLocation.getOpeningHours());
 
+        // Find the TextView in the list_item.xml layout with the ID version_name
         TextView priceTextView = (TextView) listItemView.findViewById(R.id.price_text_view);
+        // Get the version name from the current Place object and
+        // set this text on the name TextView
         priceTextView.setText(currentLocation.getPrice());
 
+        // Find the TextView in the list_item.xml layout with the ID version_name
         TextView summaryTextView = (TextView) listItemView.findViewById(R.id.summary);
+        // Get the version name from the current Place object and
+        // set this text on the name TextView
         summaryTextView.setText(currentLocation.getSummary());
 
+        // Find the ImageView in the list_item.xml layout with the ID version_name
         ImageView photoOfThePlace = (ImageView) listItemView.findViewById(R.id.image_of_place);
 
         if (currentLocation.hasPhoto()) {
+            // Set the ImageView to the image resource specified in the current Location
             photoOfThePlace.setImageResource(currentLocation.getPhotoResourceId());
 
+            // Make sure the view is visible
             photoOfThePlace.setVisibility(View.VISIBLE);
         } else {
+            // Otherwise hide the ImageView (set visibility to Invisible)
             photoOfThePlace.setVisibility(View.INVISIBLE);
         }
 
-
-
-
-
         return listItemView;
     }
-
 }

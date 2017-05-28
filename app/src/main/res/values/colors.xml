@@ -7,14 +7,6 @@
     <color name="lightGray">#80a3a3a3</color>
     <color name="darkGray_transparent">#80424242</color>
 
-    <color name="lightBlue">#5c6fbf</color>
-    <color name="lightRed">#ff6c6a</color>
-    <color name="colorRed">#D65F63</color>
-    <color name="colorOchra">#CCB862</color>
-    <color name="colorGreen">#79D681</color>
+    <color name="colorRed">#B62025</color>
 
-    <color name="colorRed_transparent">#33D65F63</color>
-    <color name="lightBlue_transparent">#335c6fbf</color>
-    <color name="colorOchra_transparent">#33CCB862</color>
-    <color name="colorGreen_transparent">#3379D681</color>
 </resources>

@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:padding="20dp"
-        android:text="No Favorite Places so far"/>
+        android:padding="@dimen/padding_16dp"
+        android:text="@string/fav_default_text"/>
 
 </LinearLayout>

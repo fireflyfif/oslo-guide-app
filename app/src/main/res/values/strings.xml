@@ -13,9 +13,29 @@
     <string name="web_text">Web</string>
     <string name="share_text">Share</string>
 
+    <!-- Content Description of Images used in the App -->
+    <string name="splash_screen_image">Image - logo that represents the symbol of the Oslo Guide App.
+        Designed by Iva Ivanova for this project.</string>
     <string name="image_location">Photo of a location</string>
     <string name="favorite_icon">Heart shape icon for favorites</string>
     <string name="map_of_city">Map of the city</string>
+    <string name="expandableButton">Expandable arrow button that collapses TextView.</string>
+
+    <!-- Drawer Title Items -->
+    <string name="navigation">Navigation</string>
+    <string name="city_map">City Map</string>
+    <string name="facts">Facts</string>
+    <string name="favorites">Favorites</string>
+    <string name="city_title_drawer">Oslo, Norway</string>
+    <string name="fav_default_text">No Favorite Places so far</string>
+    <string name="map_toDo_text">This screen will use Google Maps with bookmarks to show the
+        existing locations in the city.</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_locations">Discover Locations</string>
+    <string name="toast_cityMap">Welcome to City Map</string>
+    <string name="toast_facts">Welcome to Facts</string>
+    <string name="toast_favorites">Welcome to Favorites</string>
 
     <!-- The Viking Ship Museum -->
     <string name="loc_vikingShip_title">The Viking Ship Museum</string>
