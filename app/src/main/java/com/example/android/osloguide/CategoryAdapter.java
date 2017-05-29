@@ -1,5 +1,6 @@
 package com.example.android.osloguide;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -11,7 +12,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private String categoryTitles[] = new String[]{"Top", "Culture", "Parks", "Views"};
+    final int PAGE_COUNT = 4;
+    Context context;
 
     /**
      * Create a new {@link CategoryAdapter} object.
@@ -19,8 +21,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      * @param fm is the fragment manager that will keep each fragment's state in the adapter
      *           across swipes.
      */
-    public CategoryAdapter(FragmentManager fm) {
+    public CategoryAdapter(FragmentManager fm, Context nContext) {
         super(fm);
+        context = nContext;
     }
 
     /**
@@ -28,14 +31,21 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new TopFragment();
-        } else if (position == 1) {
-            return new CultureFragment();
-        } else if (position == 2) {
-            return new ParksFragment();
-        } else {
-            return new ViewsFragment();
+        switch (position) {
+            case 0:
+                return new TopFragment();
+
+            case 1:
+                return new CultureFragment();
+
+            case 2:
+                return new ParksFragment();
+
+            case 3:
+                return new ViewsFragment();
+
+            default:
+                return null;
         }
     }
 
@@ -44,11 +54,25 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 4;
+        return PAGE_COUNT;
     }
 
+    /**
+     * Return the titles of the pages.
+     */
     @Override
     public CharSequence getPageTitle(int position) {
-        return categoryTitles[position];
+        switch (position) {
+            case 0:
+                return context.getString(R.string.category_top);
+            case 1:
+                return context.getString(R.string.category_culture);
+            case 2:
+                return context.getString(R.string.category_parks);
+            case 3:
+                return context.getString(R.string.category_views);
+            default:
+                return null;
+        }
     }
 }

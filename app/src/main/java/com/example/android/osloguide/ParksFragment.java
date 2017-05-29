@@ -67,7 +67,6 @@ public class ParksFragment extends Fragment {
                 getString(R.string.loc_reptilePark_price), getString(R.string.loc_reptilePark_summary),
                 R.drawable.default_photo));
 
-
         // This list item layout contains a layout of location information, that includes
         // title, address, opening hours, summary and photo of the location which the adapter will
         // set to display.
@@ -90,7 +89,6 @@ public class ParksFragment extends Fragment {
                 // TODO: make the detail activity work dynamically for each selected location.
                 Intent intent = new Intent(getActivity(), LocationDetailActivity.class);
                 startActivity(intent);
-
             }
         });
 

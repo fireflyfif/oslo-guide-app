@@ -17,11 +17,9 @@ import java.util.ArrayList;
  */
 public class ViewsFragment extends Fragment {
 
-
     public ViewsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -56,7 +54,6 @@ public class ViewsFragment extends Fragment {
                 getString(R.string.loc_vettakollen_price), getString(R.string.loc_vettakollen_summary),
                 R.drawable.default_photo));
 
-
         // This list item layout contains a layout of location information, that includes
         // title, address, opening hours, summary and photo of the location which the adapter will
         // set to display.
@@ -82,7 +79,6 @@ public class ViewsFragment extends Fragment {
 
             }
         });
-
         return rootView;
     }
 }

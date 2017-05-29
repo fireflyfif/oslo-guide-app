@@ -117,11 +117,9 @@ public class CultureFragment extends Fragment {
                 // TODO: make the detail activity work dynamically for each selected location.
                 Intent intent = new Intent(getActivity(), LocationDetailActivity.class);
                 startActivity(intent);
-
             }
         });
 
         return rootView;
     }
-
 }

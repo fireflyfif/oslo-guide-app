@@ -35,7 +35,6 @@ public class Location {
      */
     private int mPhotoResourceId = NO_IMAGE_PROVIDED;
 
-
     /**
      * Create a new Location object.
      *

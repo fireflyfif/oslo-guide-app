@@ -13,6 +13,12 @@
     <string name="web_text">Web</string>
     <string name="share_text">Share</string>
 
+    <!-- Tab Titles -->
+    <string name="category_top">Top</string>
+    <string name="category_culture">Culture</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_views">Views</string>
+
     <!-- Content Description of Images used in the App -->
     <string name="splash_screen_image">Image - logo that represents the symbol of the Oslo Guide App.
         Designed by Iva Ivanova for this project.</string>
@@ -363,6 +369,5 @@
         serious pollution: Tel 110
         \nPolice - immediate assistance: Tel 112
         \nAmbulance and Medical assistance: Tel 113</string>
-
 
 </resources>

@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 /**
  * Created by iva on 5/16/17.
  */
@@ -30,58 +33,70 @@ public class LocationAdapter extends ArrayAdapter<Location> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
+        ViewHolder holder;
+
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+            holder = new ViewHolder(listItemView);
+            listItemView.setTag(holder);
+        } else {
+            holder = (ViewHolder) listItemView.getTag();
         }
 
         // Get the {@Link Location} object located at this position in the list
         Location currentLocation = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView titleTextView = (TextView) listItemView.findViewById(R.id.title_text_view);
         // Get the version name from the current Place object and
         // set this text on the name TextView
-        titleTextView.setText(currentLocation.getTitle());
+        holder.titleTextView.setText(currentLocation.getTitle());
 
-        // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView addressTextView = (TextView) listItemView.findViewById(R.id.address_text_view);
         // Get the version name from the current Place object and
         // set this text on the name TextView
-        addressTextView.setText(currentLocation.getAddress());
+        holder.addressTextView.setText(currentLocation.getAddress());
 
-        // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView openingHoursTextView = (TextView) listItemView.findViewById(R.id.open_hours_text_view);
         // Get the version name from the current Place object and
         // set this text on the name TextView
-        openingHoursTextView.setText(currentLocation.getOpeningHours());
+        holder.openingHoursTextView.setText(currentLocation.getOpeningHours());
 
-        // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView priceTextView = (TextView) listItemView.findViewById(R.id.price_text_view);
         // Get the version name from the current Place object and
         // set this text on the name TextView
-        priceTextView.setText(currentLocation.getPrice());
+        holder.priceTextView.setText(currentLocation.getPrice());
 
-        // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView summaryTextView = (TextView) listItemView.findViewById(R.id.summary);
         // Get the version name from the current Place object and
         // set this text on the name TextView
-        summaryTextView.setText(currentLocation.getSummary());
-
-        // Find the ImageView in the list_item.xml layout with the ID version_name
-        ImageView photoOfThePlace = (ImageView) listItemView.findViewById(R.id.image_of_place);
+        holder.summaryTextView.setText(currentLocation.getSummary());
 
         if (currentLocation.hasPhoto()) {
             // Set the ImageView to the image resource specified in the current Location
-            photoOfThePlace.setImageResource(currentLocation.getPhotoResourceId());
+            holder.photoOfThePlace.setImageResource(currentLocation.getPhotoResourceId());
 
             // Make sure the view is visible
-            photoOfThePlace.setVisibility(View.VISIBLE);
+            holder.photoOfThePlace.setVisibility(View.VISIBLE);
         } else {
             // Otherwise hide the ImageView (set visibility to Invisible)
-            photoOfThePlace.setVisibility(View.INVISIBLE);
+            holder.photoOfThePlace.setVisibility(View.INVISIBLE);
         }
 
         return listItemView;
+    }
+
+    static class ViewHolder {
+        @BindView(R.id.title_text_view)
+        TextView titleTextView;
+        @BindView(R.id.address_text_view)
+        TextView addressTextView;
+        @BindView(R.id.open_hours_text_view)
+        TextView openingHoursTextView;
+        @BindView(R.id.price_text_view)
+        TextView priceTextView;
+        @BindView(R.id.summary)
+        TextView summaryTextView;
+        @BindView(R.id.image_of_place)
+        ImageView photoOfThePlace;
+
+        public ViewHolder(View view) {
+            ButterKnife.bind(this, view);
+        }
     }
 }

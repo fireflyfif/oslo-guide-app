@@ -17,11 +17,9 @@ import java.util.ArrayList;
  */
 public class TopFragment extends Fragment {
 
-
     public TopFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
@@ -84,7 +82,6 @@ public class TopFragment extends Fragment {
                 // TODO: make the detail activity work dynamically for each selected location.
                 Intent intent = new Intent(getActivity(), LocationDetailActivity.class);
                 startActivity(intent);
-
             }
         });
 

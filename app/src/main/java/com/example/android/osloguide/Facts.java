@@ -12,7 +12,6 @@ public class Facts extends AppCompatActivity {
     ExpandableTextView expandableTextView2;
     ExpandableTextView expandableTextView3;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +40,5 @@ public class Facts extends AppCompatActivity {
         expandableTextView.setText(getString(R.string.facts_shopping_about));
         expandableTextView2.setText(getString(R.string.facts_osloPass_about));
         expandableTextView3.setText(getString(R.string.facts_emergency_about));
-
     }
 }
