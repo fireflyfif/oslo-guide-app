@@ -34,16 +34,12 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         switch (position) {
             case 0:
                 return new TopFragment();
-
             case 1:
                 return new CultureFragment();
-
             case 2:
                 return new ParksFragment();
-
             case 3:
                 return new ViewsFragment();
-
             default:
                 return null;
         }

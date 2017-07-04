@@ -109,7 +109,6 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, getString(R.string.toast_favorites),
                             Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
     }
@@ -138,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
         mDrawerToggle.setDrawerIndicatorEnabled(true);
-        mDrawerLayout.setDrawerListener(mDrawerToggle);
+        mDrawerLayout.addDrawerListener(mDrawerToggle);
 
     }
 
