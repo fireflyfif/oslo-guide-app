@@ -138,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
 
         mDrawerToggle.setDrawerIndicatorEnabled(true);
         mDrawerLayout.addDrawerListener(mDrawerToggle);
-
     }
 
     @Override
