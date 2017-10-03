@@ -4,7 +4,7 @@ Tour guide app which presents information for top attractions, cultural places, 
 It presents relevant information for each place - address, working hours, fee (if applicable).
 
 Screenshots of the App:
-![Alt text](https://github.com/fireflyfif/Oslo-Guide/blob/master/screenshots/oslo_guide_screenshot.jpg "Three screens")
+![Alt text](Oslo-Guide/screenshots/oslo_guide_screenshot.jpg "Three screens")
 
 Splash Screen with the Oslo Guide Logo:
-![Alt text](https://github.com/fireflyfif/Oslo-Guide/blob/master/screenshots/oslo_guide_splash_screen.jpg "Splash screen")
+![Alt text](Oslo-Guide/screenshots/oslo_guide_splash_screen.jpg "Splash screen")
