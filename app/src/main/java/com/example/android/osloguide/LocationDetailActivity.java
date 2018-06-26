@@ -15,4 +15,11 @@ public class LocationDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location_detail);
     }
+
+    @Override
+    public void onBackPressed() {
+
+
+        super.onBackPressed();
+    }
 }
